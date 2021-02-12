@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<unistd.h>
 using namespace std;
 
 bool is_T(string s, int t){
@@ -15,7 +14,6 @@ bool is_T(string s, int t){
 int main(){
     int N;
     cin>>N;
-    usleep(500 * 1000);
     while (N--) {
         string s;
         cin>>s;
